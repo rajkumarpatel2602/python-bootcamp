@@ -20,6 +20,7 @@ class Employee:
 
     # class variable
     nr_employees = 0
+    raise_amount = 1.04
 
     # Constructor method as in cpp
     def __init__(self, first, last, pay):
